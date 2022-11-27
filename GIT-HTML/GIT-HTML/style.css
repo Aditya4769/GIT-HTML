@@ -1,0 +1,67 @@
+body {
+width: 100;
+height: 100%;
+background-image: url(https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=996&t=st=1667708646~exp=1667709246~hmac=https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=996&t=st=1667708646~exp=1667709246~hmac=a52514618d32ec494486f33448f72a5bc3bc308a1cd0ec9cdf22910f43cc0f4b);
+background-size: cover;
+}
+
+.main {
+text-align: center;
+padding: 6% 0% 0% 0%;
+}
+
+.main img {
+    
+    border-radius: 50%;
+}
+.div1{
+    background-color: none;
+    border: 4px double black;
+    margin: 50px 50px 50px;
+    padding: 1% 0% 1% 0%;
+    color: white;
+    text-align: center;
+    
+    
+}
+.topnav{
+    overflow: hidden;
+   background-color: black;
+
+}
+.topnav a{
+   float:right;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 14px;
+}
+.topnav a:hover {
+    background-color:#ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }  
+  table {
+    border-radius: 25px;
+    font-family: arial, sans-serif;
+    border-collapse: initial;
+    width: 100%;
+  }
+  
+  td, th {
+    
+    border-radius: 25px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    border-radius: 25px;
+    background-color: #000;
+    color: #ddd;
+  }
